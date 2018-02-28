@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F63D6A51CE2BDAA008D67E9 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F63D6A01CE2BDAA008D67E9 /* SVIndefiniteAnimatedView.m */; };
+		3F63D6A61CE2BDAA008D67E9 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F63D6A21CE2BDAA008D67E9 /* SVProgressHUD.bundle */; };
+		3F63D6A71CE2BDAA008D67E9 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F63D6A41CE2BDAA008D67E9 /* SVProgressHUD.m */; };
 		3FC64B0F1CE1E7D400F31A0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64B0E1CE1E7D400F31A0D /* main.m */; };
 		3FC64B121CE1E7D400F31A0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64B111CE1E7D400F31A0D /* AppDelegate.m */; };
 		3FC64B151CE1E7D400F31A0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64B141CE1E7D400F31A0D /* ViewController.m */; };
 		3FC64B181CE1E7D400F31A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC64B161CE1E7D400F31A0D /* Main.storyboard */; };
 		3FC64B1A1CE1E7D400F31A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC64B191CE1E7D400F31A0D /* Assets.xcassets */; };
 		3FC64B1D1CE1E7D400F31A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC64B1B1CE1E7D400F31A0D /* LaunchScreen.storyboard */; };
+		3FC64B251CE1E8F200F31A0D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC64B241CE1E8F200F31A0D /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F63D69F1CE2BDAA008D67E9 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3F63D6A01CE2BDAA008D67E9 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		3F63D6A11CE2BDAA008D67E9 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		3F63D6A21CE2BDAA008D67E9 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3F63D6A31CE2BDAA008D67E9 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		3F63D6A41CE2BDAA008D67E9 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		3FC64B0A1CE1E7D400F31A0D /* bleDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bleDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC64B0E1CE1E7D400F31A0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FC64B101CE1E7D400F31A0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,7 @@
 		3FC64B191CE1E7D400F31A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC64B1C1CE1E7D400F31A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC64B1E1CE1E7D400F31A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC64B241CE1E8F200F31A0D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +44,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC64B251CE1E8F200F31A0D /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F63D69E1CE2BDAA008D67E9 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3F63D69F1CE2BDAA008D67E9 /* SVIndefiniteAnimatedView.h */,
+				3F63D6A01CE2BDAA008D67E9 /* SVIndefiniteAnimatedView.m */,
+				3F63D6A11CE2BDAA008D67E9 /* SVProgressHUD-Prefix.pch */,
+				3F63D6A21CE2BDAA008D67E9 /* SVProgressHUD.bundle */,
+				3F63D6A31CE2BDAA008D67E9 /* SVProgressHUD.h */,
+				3F63D6A41CE2BDAA008D67E9 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		3FC64B011CE1E7D400F31A0D = {
 			isa = PBXGroup;
 			children = (
+				3F63D69E1CE2BDAA008D67E9 /* SVProgressHUD */,
+				3FC64B241CE1E8F200F31A0D /* CoreBluetooth.framework */,
 				3FC64B0C1CE1E7D400F31A0D /* bleDemo2 */,
 				3FC64B0B1CE1E7D400F31A0D /* Products */,
 			);
@@ -139,6 +166,7 @@
 				3FC64B1D1CE1E7D400F31A0D /* LaunchScreen.storyboard in Resources */,
 				3FC64B1A1CE1E7D400F31A0D /* Assets.xcassets in Resources */,
 				3FC64B181CE1E7D400F31A0D /* Main.storyboard in Resources */,
+				3F63D6A61CE2BDAA008D67E9 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +179,9 @@
 			files = (
 				3FC64B151CE1E7D400F31A0D /* ViewController.m in Sources */,
 				3FC64B121CE1E7D400F31A0D /* AppDelegate.m in Sources */,
+				3F63D6A71CE2BDAA008D67E9 /* SVProgressHUD.m in Sources */,
 				3FC64B0F1CE1E7D400F31A0D /* main.m in Sources */,
+				3F63D6A51CE2BDAA008D67E9 /* SVIndefiniteAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +330,7 @@
 				3FC64B231CE1E7D400F31A0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
